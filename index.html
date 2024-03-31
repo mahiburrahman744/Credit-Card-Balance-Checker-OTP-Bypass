@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Cards</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Saved Cards</h2>
+    <table>
+        <tr>
+            <th>Card Number</th>
+            <th>Expiry Month</th>
+            <th>Expiry Year</th>
+            <th>CVV</th>
+            <th>Balance</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th>OTP</th>
+            <th>Brand</th>
+            <th>Country</th>
+            <th>Bank</th>
+            <th>Level</th>
+            <th>Type</th>
+        </tr>
+        {% for card in cards %}
+        <tr>
+            <td>{{ card['card_number'] }}</td>
+            <td>{{ card['expiry_month'] }}</td>
+            <td>{{ card['expiry_year'] }}</td>
+            <td>{{ card['cvv'] }}</td>
+            <td>{{ card['balance'] }}</td>
+            <td>{{ card['location'] }}</td>
+            <td>{{ card['valid'] }}</td>
+            <td>{{ card['otp'] }}</td>
+            <td>{{ card['brand'] }}</td>
+            <td>{{ card['country'] }}</td>
+            <td>{{ card['bank'] }}</td>
+            <td>{{ card['level'] }}</td>
+            <td>{{ card['type'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
