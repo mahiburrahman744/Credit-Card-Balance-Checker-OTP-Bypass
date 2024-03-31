@@ -50,9 +50,9 @@ git clone https://github.com/mahiburrahman744/Credit-Card-Balance-Checker-OTP-By
 
 ## Usage
 - Run the main script:
-python main.py
+- python main.py
+- python checker.py
 
-python checker.py
 
 Feel free to customize it further according to your project's specific details and features. 
 If you need any more assistance, just let me know! https://t.me/adsbinfree
