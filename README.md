@@ -2,6 +2,48 @@
 
 
 
+https://github.com/mahiburrahman744/Credit-Card-Balance-Checker-OTP-Bypass/blob/main/dashbord.png
+
+# Credit Card Balance Checker & OTP Bypass
+
+This project is a Python-based tool for checking credit card balances and bypassing OTP (One Time Password) requirements. 
+It includes functionalities such as adding cards, displaying saved cards, displaying card balances, and displaying OTPs.
+
+## Features
+
+- Add new credit cards to the system.
+- Display saved credit card details.
+- Check the balance of a specific credit card.
+- Display OTPs for registered credit cards.
+
+## Requirements
+
+- Python 3.x
+- Requests library (install via `pip install requests`)
+
+## Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mahiburrahman744/Credit-Card-Balance-Checker-OTP-Bypass.git
+
+Install the required dependencies:
+pip install -r requirements.txt
+
+Run the main script:
+python main.py
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,52 +84,6 @@ Once the application is running, you can access it through your web browser or c
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://github.com/mahiburrahman744/Credit-Card-Balance-Checker-OTP-Bypass/blob/main/dashbord.png
-
-# Credit Card Balance Checker & OTP Bypass
-
-This project is a Python-based tool for checking credit card balances and bypassing OTP (One Time Password) requirements. 
-It includes functionalities such as adding cards, displaying saved cards, displaying card balances, and displaying OTPs.
-
-## Features
-
-- Add new credit cards to the system.
-- Display saved credit card details.
-- Check the balance of a specific credit card.
-- Display OTPs for registered credit cards.
-
-## Requirements
-
-- Python 3.x
-- Requests library (install via `pip install requests`)
-
-## Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/mahiburrahman744/Credit-Card-Balance-Checker-OTP-Bypass.git
-
-Install the required dependencies:
-pip install -r requirements.txt
-
-Run the main script:
-python main.py
 
 
 
