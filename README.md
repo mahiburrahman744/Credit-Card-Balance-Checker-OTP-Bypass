@@ -42,9 +42,11 @@ python main.py
 git clone https://github.com/mahiburrahman744/Credit-Card-Balance-Checker-OTP-Bypass.git
 
 2. Navigate to the project directory:
-cd Credit-Card-Balance-Checker-OTP-Bypass
-3. Install dependencies:
-pip install -r requirements.txt
+3. cd Credit-Card-Balance-Checker-OTP-Bypass
+
+4. Install dependencies:
+5. pip install -r requirements.txt
+
 
 ## Usage
 - Run the main script:
